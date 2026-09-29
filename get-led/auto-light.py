@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 import time
-GPIO.setwarnings(False)
 GPIO.setmode (GPIO.BCM)
 led = 26
 GPIO.setup(led,GPIO.OUT)
